@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    /* border: 1px dashed red;
+    min-height: 10px; */
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background: black;
+}
+
+.post {
+    width: 25%;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    /* padding: 5px; */
+    background: white;
+}
+
+.head {
+    display: flex;
+    padding: 10px;
+}
+
+.icon {
+    width: 5%;
+    text-align: center;
+    align-self: center;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.infoUser {
+    width: 25%;
+}
+
+.infoUser .tittle{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.infoUser .name{
+    font-size: 12px;
+}
+
+.menu {
+    width: 65%;
+    margin-left: 380px;
+    margin-top: 8px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.infoPhoto {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.infoPhoto .likes {
+    margin-bottom: 5px;
+}
+
+.accions {
+    font-size: 22px;
+    padding: 10px;
+    display: flow-root;
+}
+
+.rightIcon {
+    float: right;
+}
